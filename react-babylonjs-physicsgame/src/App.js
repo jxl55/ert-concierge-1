@@ -364,13 +364,11 @@ class App extends React.Component<{}, {}> {
   startLevel = () => {
 
     // if (this.state.currLevel == 0) {
-    //   console.log("poop0")
     //   return "Click the red button to start!"
     // }
 
     if (this.state.currLevel == 1) {
 
-      console.log("poop1")
       var group = "&group=Virtech&password=F2h6JyzlEH";
       var ball = "&item=%2FMy+Inventory%2FObjects%2FBall";
       var bucket = "&item=%2FMy+Inventory%2FObjects%2FBucket";
